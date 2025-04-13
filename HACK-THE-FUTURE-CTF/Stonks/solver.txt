@@ -1,0 +1,1 @@
+this task is mainly an integer overflow vulnerability where you have to select option 2 and then add 10000000 so with that the overflow occurs on the stack and from there you will have the balance and you are able to buy the flag 
