@@ -1,0 +1,25 @@
+name: "Michael Jackson"
+author: "BALD"
+category: pwn
+description: |-
+  Hee Hee 
+
+  nc 51.77.140.155 10003
+
+  **author**: BALD
+value: 500
+type: dynamic
+extra:
+  initial: 500
+  decay: 20
+  minimum: 10
+flags:
+  - Securinets{th3_m4n_0f_th3_sh0w}
+#tags:
+#  - easy
+files:
+  - ./main
+state: visible
+#requirements:
+#  - MyBankv2
+version: "0.1"

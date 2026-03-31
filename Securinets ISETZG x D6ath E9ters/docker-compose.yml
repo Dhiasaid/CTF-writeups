@@ -1,0 +1,33 @@
+services:
+  sro_wave:
+    build:
+      context: ./SROwave/
+      dockerfile: Dockerfile
+    ports:
+      - "10002:10002"
+    restart: always
+
+  michael_jackson:
+    build:
+      context: ./MichaelJackson/
+      dockerfile: Dockerfile
+    ports:
+      - "10003:10003"
+    restart: always
+
+  pablo_escobar:
+    build:
+      context: ./PabloEscobar/
+      dockerfile: Dockerfile
+    ports:
+      - "10004:10004"
+    restart: always
+
+  back_to_the_future:
+    build:
+      context: ./BackToTheFuture/
+      dockerfile: Dockerfile
+    ports:
+      - "10005:10005"
+    restart: always
+
